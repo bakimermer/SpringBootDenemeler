@@ -1,0 +1,5 @@
+# Project exclude paths
+/apiDoc-Swagger/target/
+/elasticSearch/target/
+/mongo-rest-api/target/
+/postgresql/target/

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mongo-rest-api" />
+        <module name="apiDoc-Swagger" />
+        <module name="elasticSearch" />
+        <module name="postgresql" />
+        <module name="rabbit_mq" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AOP" target="1.8" />
+      <module name="rabbitMQ" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AOP" options="-parameters" />
+      <module name="apiDoc-Swagger" options="-parameters" />
+      <module name="elasticSearch" options="-parameters" />
+      <module name="mongo-rest-api" options="-parameters" />
+      <module name="postgresql" options="-parameters" />
+      <module name="rabbitMQ" options="-parameters" />
+      <module name="rabbit_mq" options="-parameters" />
+    </option>
+  </component>
+</project>
