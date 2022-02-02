@@ -1,7 +1,7 @@
-Swagger
-Elastic Search
-MongoDB
-Postgresql
-Rabbit MQ
+Swagger, 
+Elastic Search, 
+MongoDB, 
+Postgresql, 
+Rabbit MQ, 
 
 Örnekleri
